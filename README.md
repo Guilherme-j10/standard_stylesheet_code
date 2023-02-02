@@ -11,7 +11,7 @@
 | .full_w | adiciona uma largura de 100% | width: 100%; | 
 | .h_80 | adiciona uma altura de 80px | height: 80px; | 
 | .w_80 | adiciona uma largura de 80px | width: 80px; | 
-| .no_p | remove todo o padding | padding: 0; | 
+| .no_p | remove todo o padding | padding: 0px; | 
 | .p_t_20 | adiciona um padding top de 20px | padding-top: 20px; | 
 | .p_b_20 | adiciona um padding bottom de 20px | padding-bottom: 20px; | 
 | .p_l_20 | adiciona um padding left de 20px | padding-left: 20px; | 
