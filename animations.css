@@ -1,0 +1,2 @@
+.pulse_animation { transition: all ease-in-out .1s; opacity: 0; pointer-events: none; transform: scale(0); }
+.pulse_on { opacity: 1; pointer-events: auto; transform: scale(1); }

@@ -4,18 +4,22 @@ const { execSync } = require('child_process');
 
 try {
 
-  const page_content = fs.readFileSync(path.resolve(__dirname, 'target.css'), { encoding: 'utf-8' });
+  const page_content = fs.readFileSync(path.resolve(__dirname, 'stylesheet.css'), { encoding: 'utf-8' });
   const lines = page_content.split('\n');
 
   const structure = lines.map(line => {
 
-    const class_name = line.split(' {')[0].trim();
-    const content_describer = line.split('/*')[1].split('*/')[0].trim();
-    const content_code = line.split('{ ')[1].split(' }')[0].trim();
+    if(!line.includes('@import') && line.length) {
 
-    return { class_name, content_describer, content_code }
+      const class_name = line.split(' {')[0].trim();
+      const content_describer = line.split('/*')[1].split('*/')[0].trim();
+      const content_code = line.split('{ ')[1].split(' }')[0].trim();
 
-  });
+      return { class_name, content_describer, content_code }
+
+    }
+
+  }).filter(val => val);
 
   let duplicated_class_names = [];
   let duplicated_content_code = [];

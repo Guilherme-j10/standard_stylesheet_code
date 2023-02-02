@@ -24,11 +24,8 @@
 | .p_20 | adiciona um padding de 20px | padding: 20px; | 
 | .p_15 | adiciona um padding de 15px | padding: 15px; | 
 | .fs_w | deixa a font em bold | font-weight: bold; | 
-| .fs_1 | font size de 1em | font-size: 1em; | 
-| .fs_1_2 | font size de 1.2em | font-size: 1.2em; | 
 | .fs_1_1 | font size de 1.1em | font-size: 1.1em; | 
 | .fs_1_3 | font size de 1.3em | font-size: 1.3em; | 
-| .fs__9 | font size .9em | font-size: .9em; | 
 | .c_white | color white | color: #fff; | 
 | .d_f | display flex | display: flex; | 
 | .jc_bet | justifica o conteudo separadamente | justify-content: space-between; | 
@@ -42,3 +39,12 @@
 | .al_fe | alinha os itens ao final | align-items: flex-end; | 
 | .fl_dir_c | direção do flex em coluna | flex-direction: column; | 
 | .fl_dir_r | direção do flex em linha | flex-direction: row; | 
+| .button_round | cria um botão redondo com cor azul | width: 40px; height: 40px; border-radius: 50px; cursor: pointer; background-color: #3273dc; | 
+| .btn_is_large | reseta o tamanho do botão para grande | width: 50px; height: 50px; | 
+| .btn_is_medium | reseta o tamanho do botão para médio | width: 40px; height: 40px; | 
+| .btn_is_small | reseta o tamanho do botão para pequeno | width: 30px; height: 30px; | 
+| .is_fixed | deixa a posição do elemento fixa | position: fixed; | 
+| .fn_size_small | deixa a fonte pequena | font-size: .9em; | 
+| .fn_size_normal | deixa a fonte com tamanho normal | font-size: 1em; | 
+| .fn_size_medium | deixa a fonte com tamanho médio | font-size: 1.2em; | 
+| .fn_size_large | deixa a fonte com tamanho grande | font-size: 1.4em; | 

@@ -1,3 +1,5 @@
+@import './animations.css';
+
 .no_margin { margin: 0px; margin-bottom: 0px; } /* remove completamente o margin glauquets */
 .red { background-color: #ff0000; }  /* cor de fundo vermelha */
 .orange { background-color: #f8b306; }  /* cor de fundo laranja */
@@ -22,11 +24,8 @@
 .p_20 { padding: 20px; }  /* adiciona um padding de 20px */
 .p_15 { padding: 15px; } /* adiciona um padding de 15px */
 .fs_w { font-weight: bold; }  /* deixa a font em bold */
-.fs_1 { font-size: 1em; }  /* font size de 1em */
-.fs_1_2 { font-size: 1.2em; }  /* font size de 1.2em */
 .fs_1_1 { font-size: 1.1em; }  /* font size de 1.1em */
 .fs_1_3 { font-size: 1.3em; }  /* font size de 1.3em */
-.fs__9 { font-size: .9em; }  /* font size .9em */
 .c_white { color: #fff; } /* color white */
 .d_f { display: flex; }  /* display flex */
 .jc_bet { justify-content: space-between; }  /* justifica o conteudo separadamente */
@@ -40,3 +39,12 @@
 .al_fe { align-items: flex-end; }  /* alinha os itens ao final */
 .fl_dir_c { flex-direction: column; }  /* direção do flex em coluna */
 .fl_dir_r { flex-direction: row; }  /* direção do flex em linha */
+.button_round { width: 40px; height: 40px; border-radius: 50px; cursor: pointer; background-color: #3273dc; } /* cria um botão redondo com cor azul */
+.btn_is_large { width: 50px; height: 50px; } /* reseta o tamanho do botão para grande */
+.btn_is_medium { width: 40px; height: 40px; } /* reseta o tamanho do botão para médio */
+.btn_is_small { width: 30px; height: 30px; } /* reseta o tamanho do botão para pequeno */
+.is_fixed { position: fixed; } /* deixa a posição do elemento fixa */
+.fn_size_small { font-size: .9em; } /* deixa a fonte pequena */
+.fn_size_normal { font-size: 1em; } /* deixa a fonte com tamanho normal */
+.fn_size_medium { font-size: 1.2em; } /* deixa a fonte com tamanho médio */
+.fn_size_large { font-size: 1.4em; } /* deixa a fonte com tamanho grande */
