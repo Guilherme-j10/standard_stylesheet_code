@@ -1,6 +1,6 @@
 | Class name | Description | Stylesheet Code | 
 | ------ | ----- | ----- | 
-| .no_margin | remove completamente o margin | margin: 0px; margin-bottom: 0px !important; | 
+| .no_margin | remove completamente o margin glauquets | margin: 0px; margin-bottom: 0px !important; | 
 | .red | cor de fundo vermelha | background-color: #ff0000; | 
 | .orange | cor de fundo laranja | background-color: #f8b306; | 
 | .purple | cor de fundo roxa | background-color: #8a2be2; | 
