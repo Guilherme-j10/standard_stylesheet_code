@@ -1,4 +1,4 @@
-.no_margin { margin: 0px; margin-bottom: 0px !important; } /* remove completamente o margin glauquets */
+.no_margin { margin: 0px; margin-bottom: 0px; } /* remove completamente o margin glauquets */
 .red { background-color: #ff0000; }  /* cor de fundo vermelha */
 .orange { background-color: #f8b306; }  /* cor de fundo laranja */
 .purple { background-color: #8a2be2; }  /* cor de fundo roxa */
@@ -8,7 +8,7 @@
 .full_h { height: 100%; }  /* adiciona uma altura de 100% */
 .full_w { width: 100%; }  /* adiciona uma largura de 100% */
 .h_80 { height: 80px; }  /* adiciona uma altura de 80px */
-.w_80 { width: 80px !important; }  /* adiciona uma largura de 80px */
+.w_80 { width: 80px; }  /* adiciona uma largura de 80px */
 .no_p { padding: 0; }  /* remove todo o padding */
 .p_t_20 { padding-top: 20px; }  /* adiciona um padding top de 20px */
 .p_b_20 { padding-bottom: 20px; }  /* adiciona um padding bottom de 20px */

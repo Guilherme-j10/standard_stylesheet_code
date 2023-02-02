@@ -1,6 +1,6 @@
 | Class name | Description | Stylesheet Code | 
 | ------ | ----- | ----- | 
-| .no_margin | remove completamente o margin glauquets | margin: 0px; margin-bottom: 0px !important; | 
+| .no_margin | remove completamente o margin glauquets | margin: 0px; margin-bottom: 0px; | 
 | .red | cor de fundo vermelha | background-color: #ff0000; | 
 | .orange | cor de fundo laranja | background-color: #f8b306; | 
 | .purple | cor de fundo roxa | background-color: #8a2be2; | 
@@ -10,7 +10,7 @@
 | .full_h | adiciona uma altura de 100% | height: 100%; | 
 | .full_w | adiciona uma largura de 100% | width: 100%; | 
 | .h_80 | adiciona uma altura de 80px | height: 80px; | 
-| .w_80 | adiciona uma largura de 80px | width: 80px !important; | 
+| .w_80 | adiciona uma largura de 80px | width: 80px; | 
 | .no_p | remove todo o padding | padding: 0; | 
 | .p_t_20 | adiciona um padding top de 20px | padding-top: 20px; | 
 | .p_b_20 | adiciona um padding bottom de 20px | padding-bottom: 20px; | 
