@@ -3,7 +3,7 @@
 | .no_margin | remove completamente o margin | margin: 0px; margin-bottom: 0px !important; | 
 | .red | cor de fundo vermelha | background-color: #ff0000; | 
 | .orange | cor de fundo laranja | background-color: #f8b306; | 
-| .purple | cor de fundo roxa legal | background-color: #8a2be2; | 
+| .purple | cor de fundo roxa | background-color: #8a2be2; | 
 | .blue | cor de funda azul | background-color: #0000ff; | 
 | .black_gray_1 | cor de fundo #141313 | background-color: #141313; | 
 | .black_gray_2 | cor de fundo #262626 | background-color: #262626; | 

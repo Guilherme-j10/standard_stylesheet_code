@@ -1,7 +1,7 @@
 .no_margin { margin: 0px; margin-bottom: 0px !important; } /* remove completamente o margin */
 .red { background-color: #ff0000; }  /* cor de fundo vermelha */
 .orange { background-color: #f8b306; }  /* cor de fundo laranja */
-.purple { background-color: #8a2be2; }  /* cor de fundo roxa legal */
+.purple { background-color: #8a2be2; }  /* cor de fundo roxa */
 .blue { background-color: #0000ff; }  /* cor de funda azul */
 .black_gray_1 { background-color: #141313; }  /* cor de fundo #141313 */
 .black_gray_2 { background-color: #262626; }  /* cor de fundo #262626 */

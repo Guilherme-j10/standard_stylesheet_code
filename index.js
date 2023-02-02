@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const { exec } = require('child_process');
+const { exec, execSync } = require('child_process');
 
 const page_content = fs.readFileSync(path.resolve(__dirname, 'target.css'), { encoding: 'utf-8' });
 const lines = page_content.split('\n');
@@ -27,3 +27,7 @@ for(const line of structure) {
 }
 
 fs.writeFileSync(path.resolve(__dirname, 'framework_docs.md'), document_content);
+
+execSync('git add .');
+execSync('git commit -m '+Date.now());
+execSync('git push');
