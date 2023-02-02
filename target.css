@@ -1,0 +1,42 @@
+.no_margin { margin: 0px; margin-bottom: 0px !important; } /* remove completamente o margin */
+.red { background-color: #ff0000; }  /* cor de fundo vermelha */
+.orange { background-color: #f8b306; }  /* cor de fundo laranja */
+.purple { background-color: #8a2be2; }  /* cor de fundo roxa legal */
+.blue { background-color: #0000ff; }  /* cor de funda azul */
+.black_gray_1 { background-color: #141313; }  /* cor de fundo #141313 */
+.black_gray_2 { background-color: #262626; }  /* cor de fundo #262626 */
+.full_h { height: 100%; }  /* adiciona uma altura de 100% */
+.full_w { width: 100%; }  /* adiciona uma largura de 100% */
+.h_80 { height: 80px; }  /* adiciona uma altura de 80px */
+.w_80 { width: 80px !important; }  /* adiciona uma largura de 80px */
+.no_p { padding: 0; }  /* remove todo o padding */
+.p_t_20 { padding-top: 20px; }  /* adiciona um padding top de 20px */
+.p_b_20 { padding-bottom: 20px; }  /* adiciona um padding bottom de 20px */
+.p_l_20 { padding-left: 20px; }  /* adiciona um padding left de 20px */
+.p_r_20 { padding-right: 20px; }  /* adiciona um padding right de 20px */
+.p_t_10 { padding-top: 10px; }  /* adiciona um padding top de 10px */
+.p_b_10 { padding-bottom: 10px; }  /* adiciona um padding bottom de 10px */
+.p_l_10 { padding-left: 10px; }  /* adiciona um padding left de 10px */
+.p_r_10 { padding-right: 10px; }  /* adiciona um padding right de 10px */
+.p_10 { padding: 10px; }  /* adiciona um padding de 10px */
+.p_20 { padding: 20px; }  /* adiciona um padding de 20px */
+.p_15 { padding: 15px; } /* adiciona um padding de 15px */
+.fs_w { font-weight: bold; }  /* deixa a font em bold */
+.fs_1 { font-size: 1em; }  /* font size de 1em */
+.fs_1_2 { font-size: 1.2em; }  /* font size de 1.2em */
+.fs_1_1 { font-size: 1.1em; }  /* font size de 1.1em */
+.fs_1_3 { font-size: 1.3em; }  /* font size de 1.3em */
+.fs__9 { font-size: .9em; }  /* font size .9em */
+.c_white { color: #fff; } /* color white */
+.d_f { display: flex; }  /* display flex */
+.jc_bet { justify-content: space-between; }  /* justifica o conteudo separadamente */
+.jc_aro { justify-content: space-around; }  /* justifica o conteudo aoredor */
+.jc_eve { justify-content: space-evenly; }  /* justifica o conteudo aoredor igualmente */
+.jc_fe { justify-content: flex-end; }  /* justifica o conteudo ao final */
+.jc_fs { justify-content: flex-start; }  /* justifica o conteudo ao inicio */
+.jc_c { justify-content: center; }  /* justifica o conteudo ao centro */
+.al_c { align-items: center; }  /* alinha os itens ao centro */
+.al_fs { align-items: flex-start; }  /* alinha os itens ao inicio */
+.al_fe { align-items: flex-end; }  /* alinha os itens ao final */
+.fl_dir_c { flex-direction: column; }  /* direção do flex em coluna */
+.fl_dir_r { flex-direction: row; }  /* direção do flex em linha */
