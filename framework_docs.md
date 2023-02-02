@@ -32,8 +32,8 @@
 | .c_white | color white | color: #fff; | 
 | .d_f | display flex | display: flex; | 
 | .jc_bet | justifica o conteudo separadamente | justify-content: space-between; | 
-| .jc_aro | justifica o conteudo aoredor | justify-content: space-around; | 
-| .jc_eve | justifica o conteudo aoredor igualmente | justify-content: space-evenly; | 
+| .jc_aro | justifica o conteudo ao redor | justify-content: space-around; | 
+| .jc_eve | justifica o conteudo ao redor igualmente | justify-content: space-evenly; | 
 | .jc_fe | justifica o conteudo ao final | justify-content: flex-end; | 
 | .jc_fs | justifica o conteudo ao inicio | justify-content: flex-start; | 
 | .jc_c | justifica o conteudo ao centro | justify-content: center; | 

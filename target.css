@@ -30,8 +30,8 @@
 .c_white { color: #fff; } /* color white */
 .d_f { display: flex; }  /* display flex */
 .jc_bet { justify-content: space-between; }  /* justifica o conteudo separadamente */
-.jc_aro { justify-content: space-around; }  /* justifica o conteudo aoredor */
-.jc_eve { justify-content: space-evenly; }  /* justifica o conteudo aoredor igualmente */
+.jc_aro { justify-content: space-around; }  /* justifica o conteudo ao redor */
+.jc_eve { justify-content: space-evenly; }  /* justifica o conteudo ao redor igualmente */
 .jc_fe { justify-content: flex-end; }  /* justifica o conteudo ao final */
 .jc_fs { justify-content: flex-start; }  /* justifica o conteudo ao inicio */
 .jc_c { justify-content: center; }  /* justifica o conteudo ao centro */
