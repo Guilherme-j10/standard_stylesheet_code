@@ -28,6 +28,4 @@ for(const line of structure) {
 
 fs.writeFileSync(path.resolve(__dirname, 'framework_docs.md'), document_content);
 
-execSync('git add .');
-execSync('git commit -m '+Date.now());
-execSync('git push');
+execSync(`git add . && git commit -m ${Date.now()} && git push`);
