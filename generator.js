@@ -50,7 +50,7 @@ try {
 
   }
 
-  fs.writeFileSync(path.resolve(__dirname, 'framework_docs.md'), document_content);
+  fs.writeFileSync(path.resolve(__dirname, 'README.md'), document_content);
 
   execSync(`git add . && git commit -m ${Date.now()} && git push`);
 
